@@ -229,36 +229,81 @@ body {
 .hero_fantasy{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/hero_Fantasy.png');
+background-position: center 45%;
+   
+    height: 252px;
+
+    background-size: 100% 200%;
+    
+    background-repeat: no-repeat;
 }
 
 
 .hero_sci-fi{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_Sci-fi.png');
+background-position: center 45%;
+   
+    height: 252px;
+
+ 
+    background-size: 100% 200%;
+    
+    background-repeat: no-repeat;
 }
 
 
 .hero_mystery{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_mystery.png');
+background-position: center 45%;
+   
+    height: 252px;
+
+    
+    background-size: 100% 200%;
+    
+    background-repeat: no-repeat;
 }
 
 
 .hero_horror{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_horror.png');
+background-position: center 45%;
+   
+    height: 252px;
+
+    background-size: 100% 200%;
+    
+    background-repeat: no-repeat;
 }
 
 
 .hero_adventure{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Back_to_you_Romance.png');
+background-position: center 45%;
+   
+    height: 252px;
+
+    background-size: 100% 200%;
+    
+    background-repeat: no-repeat;
 }
 
 
 .hero_drama{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_drama.png');
+    background-position: center 45%;
+   
+    height: 252px;
+
+    background-size: 100% 200%;
+    
+    background-repeat: no-repeat;
+
 }
 
 
@@ -269,7 +314,7 @@ body {
    
     height: 252px;
 
-    background-size: cover;
+    background-size: 100% 200%;
     
     background-repeat: no-repeat;
 
