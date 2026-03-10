@@ -225,3 +225,54 @@ body {
         display: none;
     }
 }
+
+.hero_fantasy{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('assets/Images/hero_Fantasy.png');
+}
+
+
+.hero_sci-fi{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('assets/Images/Hero_Sci-fi.png');
+}
+
+
+.hero_mystery{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('assets/Images/Hero_mystery.png');
+}
+
+
+.hero_horror{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('assets/Images/Hero_horror.png');
+}
+
+
+.hero_adventure{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('assets/Images/Back_to_you_Romance.png');
+}
+
+
+.hero_drama{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('assets/Images/Hero_drama.png');
+}
+
+
+.hero_romance{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('assets/Images/Hero_bar_romace_page.png');
+  background-position: center;
+   
+    height: 252px;
+
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+
+
+}
+
