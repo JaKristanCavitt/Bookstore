@@ -112,8 +112,9 @@ body {
 .card-grid {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
     margin: 0 auto;
+    
 }
 
 .card {
@@ -123,6 +124,7 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 2rem;
 }
 
 .card:hover {
