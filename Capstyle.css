@@ -53,12 +53,18 @@ body {
     color: #bdc3c7;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s ease;
+    padding: 4px 6px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 2px solid transparent;
 }
 
-.nav-links a:hover,
+.nav-links a:hover {
+    color: var(--text-light);
+}
+
 .nav-links a.active {
     color: var(--text-light);
+    border-bottom: 2px solid var(--accent-color);
 }
 
 /* 4. Hero Section */
@@ -104,24 +110,11 @@ body {
 /* 5. Main Layout & Cards */
 .container {
     display: flex; 
-    /* puts the image and card section next to each other */
-
-align-items: flex-start; 
-/* lines them up at the top */
-
-gap: 50px; 
-/* puts space between them */
-
-width: min(90%, var(--container-width)); 
-/* keeps the whole section from getting too wide */
-
-margin: 0 11%; 
-/* centers the whole layout */
-
-padding: 40px 0; 
-/* gives space above and below */
-
-  
+    align-items: flex-start; 
+    gap: 50px; 
+    width: min(90%, var(--container-width)); 
+    margin: 0 11%; 
+    padding: 40px 0; 
 }
 
 .card-grid {
@@ -129,7 +122,6 @@ padding: 40px 0;
     gap: 2rem;
     grid-template-columns: repeat(3, minmax(220px, 1fr));
     margin: 0 auto;
-    
 }
 
 .card {
@@ -162,8 +154,7 @@ padding: 40px 0;
 /* Sidebar Images */
 .side_bar_left,
 .side_bar_right {
-    
-  width: 300px;      /* 🔥 increase this to make image bigger */
+    width: 300px;
     flex-shrink: 0;
 }
 
@@ -203,8 +194,8 @@ padding: 40px 0;
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 20px;
-         flex: 1;
-    min-width: 0; /* prevents overflow issues */
+        flex: 1;
+        min-width: 0;
     }
 
     .side_bar_left,
@@ -227,7 +218,6 @@ padding: 40px 0;
     .container {
         width: 90%;
         padding: 40px 0;
-    
     }
 
     .card-grid {
@@ -240,110 +230,77 @@ padding: 40px 0;
 
     .side_bar_left,
     .side_bar_right {
-        width: 200%;       /* adjust until it matches card width */
-    flex-shrink: 0;
+        width: 200%;
+        flex-shrink: 0;
     }
 }
 
-.hero_fantasy{
+.hero_fantasy {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/hero_Fantasy.png');
-background-position: center 45%;
-   
+    background-position: center 45%;
     height: 252px;
-
     background-size: 100% 200%;
-    
     background-repeat: no-repeat;
 }
 
-
-.hero_sci-fi{
+.hero_sci-fi {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_Sci-fi.png');
-background-position: center 45%;
-   
+    background-position: center 45%;
     height: 252px;
-
- 
     background-size: 100% 200%;
-    
     background-repeat: no-repeat;
 }
 
-
-.hero_mystery{
+.hero_mystery {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_mystery.png');
-background-position: center 45%;
-   
+    background-position: center 45%;
     height: 252px;
-
-    
     background-size: 100% 200%;
-    
     background-repeat: no-repeat;
 }
 
-
-.hero_horror{
+.hero_horror {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_horror.png');
-background-position: center 45%;
-   
+    background-position: center 45%;
     height: 252px;
-
     background-size: 100% 200%;
-    
     background-repeat: no-repeat;
 }
 
-
-.hero_adventure{
+.hero_adventure {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Back_to_you_Romance.png');
-background-position: center 45%;
-   
+    background-position: center 45%;
     height: 252px;
-
     background-size: 100% 200%;
-    
     background-repeat: no-repeat;
 }
 
-
-.hero_drama{
+.hero_drama {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_drama.png');
     background-position: center 45%;
-   
     height: 252px;
-
     background-size: 100% 200%;
-    
     background-repeat: no-repeat;
-
 }
 
-
-.hero_romance{
+.hero_romance {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('assets/Images/Hero_bar_romace_page.png');
-  background-position: center;
-   
+    background-position: center;
     height: 252px;
-
     background-size: 100% 200%;
-    
     background-repeat: no-repeat;
-
-
 }
 
-.left_image img{
-  
+.left_image img {
     width: 260px;
-    height: 58rem;;
+    height: 58rem;
     object-fit: cover;
     border-radius: 12px;
     display: block;
