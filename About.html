@@ -3,62 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
+
     <link rel="stylesheet" href="Capstyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-     
-   <nav class="navbar">
+<body>
+
+    <!-- NAVBAR (UNCHANGED) -->
+    <nav class="navbar">
         <div class="logo">Imagination meets Reality</div>
-             <ul class="nav-links">
-                <li><a href="Capstone.html">Home</a></li> 
-                <li><a href="About.html"class="active">About</a></li>
-                
-                    <li><a href="fantasy.html">Fantasy</a></li>
-                    <li><a href="scifi.html">Sci-Fi</a></li>
-                    <li><a href="mystery.html">Mystery</a></li>
-                    <li><a href="romance.html">Romance</a></li>
-                    <li><a href="horror.html">Horror</a></li>
-                    <li><a href="drama.html">Drama</a></li>
-  
-            </ul>
+        <ul class="nav-links">
+            <li><a href="Capstone.html">Home</a></li> 
+            <li><a href="About.html" class="active">About</a></li>
+            <li><a href="fantasy.html">Fantasy</a></li>
+            <li><a href="scifi.html">Sci-Fi</a></li>
+            <li><a href="mystery.html">Mystery</a></li>
+            <li><a href="romance.html">Romance</a></li>
+            <li><a href="horror.html">Horror</a></li>
+            <li><a href="drama.html">Drama</a></li>
+        </ul>
     </nav>
 
+    <!-- HERO -->
     <header class="hero_adventure">
         <div class="hero-content">
             <h1></h1>
             <p></p>
-        </header>
-<body>
-     <main class="container">
+        </div>
+    </header>
 
-        <div class="side_bar_left">
-    <img src="assets/Images/Side_bar_left.png"> 
+    <!-- MAIN CONTENT -->
+    
+<main class="container my-5 d-block">
 
-</div>
-  
-       <section class="card-grid">
-            <div class="card">
-                <div class="card-image">
-                    <img src="assets/Images/Second_Home_drama.png">
-                </div>
-                <h3>The Immune Protocal</h3>
-                <p>We plan your digital roadmap to ensure long-term growth and stability.</p>
+    <section class="text-center mb-5">
+        <h1>About</h1>
+        <p>
+            Every story here starts with a simple question: what if? This store was created to bring different ideas, emotions, and worlds to life through storytelling. From dark and intense moments to love, mystery, and chaos, each piece is meant to make you feel something real. This isn’t just about products or stories, it’s about creating experiences that stay with you even after you’re done reading. As the brand grows, the goal is to keep building something original that people can connect with.
+        </p>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+
+        <form class="mx-auto" style="max-width: 500px;">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
             </div>
-           
-              
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Message / Reservation Date</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Type your message or date"></textarea>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-danger px-4">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="text-center mt-5">
+        <h3>“We are all stories in the end. Just make it a good one.” — The Doctor</h3>
+    </section>
+
+</main>
    
-    </main>  
 
-<h1>“We are all stories in the end. Just make it a good one.” — The Doctor</h1>
-
- <footer class="footer">
+    <!-- FOOTER -->
+    <footer class="footer text-center py-3">
         <p>&copy; 2026 MyBrand Design. All rights reserved.</p>
     </footer>
-
-
-
 
 </body>
 </html>
