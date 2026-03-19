@@ -103,10 +103,25 @@ body {
 
 /* 5. Main Layout & Cards */
 .container {
-    flex: 1;
-    width: min(90%, var(--container-width));
-    margin: 0 auto;
-    padding: 40px 180px;
+    display: flex; 
+    /* puts the image and card section next to each other */
+
+align-items: flex-start; 
+/* lines them up at the top */
+
+gap: 50px; 
+/* puts space between them */
+
+width: min(90%, var(--container-width)); 
+/* keeps the whole section from getting too wide */
+
+margin: 0 11%; 
+/* centers the whole layout */
+
+padding: 40px 0; 
+/* gives space above and below */
+
+  
 }
 
 .card-grid {
@@ -147,11 +162,9 @@ body {
 /* Sidebar Images */
 .side_bar_left,
 .side_bar_right {
-    position: fixed;
-    top: 0;
-    width: 150px;
-    height: 100vh;
-    z-index: 100;
+    
+  width: 300px;      /* 🔥 increase this to make image bigger */
+    flex-shrink: 0;
 }
 
 .side_bar_left {
@@ -190,6 +203,8 @@ body {
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 20px;
+         flex: 1;
+    min-width: 0; /* prevents overflow issues */
     }
 
     .side_bar_left,
@@ -212,6 +227,7 @@ body {
     .container {
         width: 90%;
         padding: 40px 0;
+    
     }
 
     .card-grid {
@@ -224,7 +240,8 @@ body {
 
     .side_bar_left,
     .side_bar_right {
-        display: none;
+        width: 200%;       /* adjust until it matches card width */
+    flex-shrink: 0;
     }
 }
 
@@ -323,3 +340,16 @@ background-position: center 45%;
 
 }
 
+.left_image img{
+  
+    width: 260px;
+    height: 58rem;;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.about {
+    margin: 0%;
+    padding: 0%;
+}
